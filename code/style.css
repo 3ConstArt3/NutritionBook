@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, #87405c8e, #ba99c39e, #87405c8e);
+}
+
+.notebook {
+  display: flex;
+  margin: 1.2em auto;
+  width: 900px;
+}
+
+/* Styling side-page */
+.side-page,
+.main-page {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.2em;
+  border: 3.6px dashed rgba(169, 122, 176, 0.905);
+  background-color: rgba(189, 157, 192, 0.366);
+  border-radius: 1.2em;
+  width: 450px;
+  padding: 0.9em;
+}
+
+.side-page {
+  box-shadow: -9px 0 18px #832b4e8b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  border-bottom: 1.5px dashed #832b4ea3;
+}
+
+.header h1 {
+  text-align: center;
+  margin: -3px 0;
+  letter-spacing: 0.3px;
+  color: #832b4ed2;
+  text-shadow: 0 3px 9px #832b4e8b;
+}
+
+/* Styling main-page */
+.main-page {
+  box-shadow: 9px 0 18px #832b4e8b;
+}
+
+.servings p:first-child {
+  display: unset;
+}
+
+p,
+.calories-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  margin: 0em;
+}
+
+.line {
+  border: 1.5px dashed #832b4ea3;
+  border-radius: 0.18em;
+  margin: 3.3px 0;
+}
+
+.main-tag {
+  color: #64213ce3;
+  letter-spacing: 0.099em;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.medium {
+  height: 0.12em;
+}
+
+.large {
+  height: 0.24em;
+}
+
+.medium,
+.large {
+  background-color: #322c58;
+}
+
+.small-text {
+  font-size: 0.9em;
+}
+
+.amount {
+  color: #322c58;
+}
+
+.daily-value p:first-child {
+  margin-bottom: 0.42em;
+}
+
+.calories-info {
+  align-items: flex-end;
+}
+
+.calories-info span {
+  font-size: 1.32em;
+  margin: 0;
+}
+
+.indent {
+  margin-left: 1em;
+}
+
+.double-indent {
+  margin-left: 2em;
+}
+
+.right {
+  justify-content: flex-end;
+}
+
+.note {
+  font-size: 0.9em;
+  margin: 5px 0;
+  padding: 0 8px;
+  text-indent: -8px;
+}
